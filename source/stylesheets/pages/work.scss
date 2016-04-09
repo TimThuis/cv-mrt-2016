@@ -1,0 +1,36 @@
+.work {
+  padding: 50px 0 80px 0;
+  height: auto;
+  color: #1B1E25;
+  position: relative;
+  h2 {
+    padding-bottom: 20px;
+  }
+  .container{
+    padding-top: 0px;
+  }
+  .text {
+    opacity: 0.7;
+  }
+}
+
+.text-container {
+  padding: 30px 20px 15px 20px;
+  margin-top: 40px;
+  color: #1B1E25;
+  text-align: left;
+  position: relative;
+  border: 2px solid #1B1E25;
+  border-left:0;
+  border-right:0;
+  border-bottom:0;
+  h3 {
+    position: absolute;
+    left: 0px;
+    top: -42px;
+    background-color: #FAFAFA;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,55 @@
+.container-info {
+  display: flex;
+  flex-direction: row;
+  max-width: 50%;
+  margin: auto;
+}
+
+.who {
+  background-color: #FFFFFF;
+  position: relative;
+  padding: 70px 0;
+  height: auto;
+  color: #1B1E25;
+  h2 {
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  .container {
+    padding-top: 0px;
+  }
+}
+
+.container-photo {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.info-text {
+  p {
+    text-align: justify;
+    color: rgba(0,0,0,0.7);
+  }
+  .line-left {
+    margin-top: 35px;
+  }
+}
+
+
+.pf-p {
+}
+
+.profile-pic {
+  height: 120px;
+  -webkit-filter: grayscale(100%);
+  border-radius: 50%;
+
+}
+
+.test {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}

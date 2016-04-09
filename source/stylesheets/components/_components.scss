@@ -1,14 +1,14 @@
 .line-left {
-  background-color: black;
+  background-color: rgba(black, .2);
   height: 2px;
-  width: 70px;
-  margin: 20px 0;
+  width: 50px;
+  margin: 10px 0 30px 0;
 }
 
 .line-center {
-  background-color: black;
+  background-color: rgba(black, .5);
   height: 2px;
-  width: 70px;
+  width: 50px;
   margin: 20px auto;
 }
 
@@ -39,16 +39,11 @@
   margin: 0px 0px 20px 0px;
 }
 
-.simpel-line {
-  background-color: #F9FAFA;
-  height: 1px;
-  width: 100%;
-  margin: 0px auto;
-}
-
-.circle {
-  height: 100px;
-  width: 100px;
-  border: 2px solid black;
-  border-radius: 50%;
+.icons{
+  margin-bottom: 20px;
+  filter: grayscale(100%);
+  transition: filter 500ms ease;
+  &:hover {
+    filter: grayscale(0%);
+  }
 }
