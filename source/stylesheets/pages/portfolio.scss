@@ -1,5 +1,5 @@
 .portfolio {
-  background-image: linear-gradient(rgba(white, 0.4), rgba(white, 0.4)), url('../images/make.jpg');
+  background-image: linear-gradient(rgba(black, 0.6), rgba(black, 0.6)), url('../images/make.jpg');
   background-size: cover !important;
   background-attachment: fixed;
   padding: 5% 0;
@@ -13,18 +13,3 @@
   }
 }
 
-.card-project {
-  display: flex;
-  align-items: row;
-  margin: 30px 0;
-}
-
-
-.portfolio-link {
-  height: 200px;
-}
-
-.container-project {
-  background-color: white;
-  color: #1B1E25;
-}

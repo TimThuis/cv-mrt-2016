@@ -31,7 +31,6 @@
   align-items: center;
   i {
     padding-right: 10px;
-    color: #FF6863;
   }
   p {
     color: rgba(black, 0.7);
@@ -51,4 +50,12 @@
 .title-skills {
   max-width: 400px;
   margin: 0 auto;
+}
+
+.check-red {
+  color: #FF6863;
+}
+
+.check-orange {
+  color: #f0ad4e;
 }
