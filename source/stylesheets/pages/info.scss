@@ -22,10 +22,14 @@
   i {
     padding-right: 15px;
     color: #FF6863;
-    // opacity: 0.7;
   }
   a {
-    color: rgba(0,0,0,1);
+    color: black;
+    text-decoration: none;
+    transition: color 300ms ease;
+  }
+  a:hover {
+    color: #FF6863;
     text-decoration: none;
   }
 }
@@ -33,5 +37,16 @@
 .content-info {
   margin-top: 40px;
 }
+
+.link-project {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  &:hover {
+    text-decoration: none;
+    color: #FF6863;
+  }
+}
+
 
 

@@ -1,28 +1,45 @@
 .education {
   background-color: #1B1E25;
-  padding: 50px 0;
-  height: auto;
+  padding: 70px 0;
   color: white;
   position: relative;
-  .container {
-    margin-bottom: 30px;
-  }
-  p {
-    padding-bottom: 20px;
-  }
+}
+
+.education-title {
+  text-align: center;
+  font-weight: 300;
+  max-width: 500px;
+  margin: 0 auto;
   h2 {
-    padding-bottom: 50px;
     color: white;
   }
 }
 
-.datum {
-  // color: #FF7844;
-  padding-right: 10px;
-  padding-top: 2px;
+.line-white {
+  width: 50px;
+  height: 2px;
+  background-color: rgba(white, .2);
+  margin: 20px auto;
 }
 
-.school-desc {
-  opacity: 0.7;
-  padding-top: 0;
+.icon-education {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: white;
+  transform: rotate(45deg);
+  img {
+    transform: rotate(-45deg);
+    height: 35px
+  }
+}
+
+.content-education  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  p {
+    margin-top: 20px;
+  }
 }

@@ -19,6 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .skills-img {
@@ -50,10 +51,12 @@
 .title-skills {
   max-width: 400px;
   margin: 0 auto;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .check-red {
-  color: #FF6863;
+  color: #5cb85c;;
 }
 
 .check-orange {

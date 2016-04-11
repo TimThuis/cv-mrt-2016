@@ -1,15 +1,17 @@
 .portfolio {
-  background-image: linear-gradient(rgba(black, 0.6), rgba(black, 0.6)), url('../images/make.jpg');
-  background-size: cover !important;
-  background-attachment: fixed;
-  padding: 5% 0;
-  color: white;
   position: relative;
-  .container {
-    padding-top: 0;
+  padding: 80px 0;
+  p {
+    font-weight: lighter;
+    text-align: justify;
   }
-  .line-center {
-    margin-top: -5px;
+  h3 {
+    padding-left: 0;
+    font-size: 22px;
+    font-weight: 600;
   }
 }
 
+.macbook {
+  max-height: 250px;
+}

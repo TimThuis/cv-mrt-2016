@@ -20,165 +20,160 @@
     </div>
     <div class="info-text">
       <h2>Want to get to know <b>me ?</b></h2>
-      <p>Making, creating and doing are keywords that make a big part of my personality and are goals I live by. Diversity in my line of work is something I really treasure to widen our field of view for new opportunities and a pleasant experience.</p>
+      <p>Making, creating and doing are keywords that make a big part of my personality and are goals I live by. Diversity in my line of work is something I really treasure to widen our field of view for new opportunities.</p>
 
-      <p>Creating an atmosphere where people feel at ease and get the opportunity to flourish is something to strive for, working in a team where we can build on projects made bigger through collaboration.</p>
+      <p>Creating an atmosphere where people feel at ease and get the opportunity to flourish is something to strive for. Working in a team where we can build on projects made bigger through collaboration is key.</p>
 
       <div class="line-left"></div>
     </div>
   </div>
-  <a href="#contact"><div class="sphere" style="background-color:white"><i class="fa fa-angle-down" style="color:#1B1E25"></i></div></a>
+  <a href="#contact"><div class="sphere" style="background-color:#FF6863"><i class="fa fa-angle-down" style="color:white"></i></div></a>
 </div>
 
 <div class="info" id="contact">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-2">
+      <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-2">
+
         <h2>Get <b>Connected</b></h2>
         <div class="line-left"></div>
         <div class="content-info">
           <div class="contact-links">
-            <i class="mdi mdi-cellphone-iphone"></i
-              <div>+ 31 6 15 83 29 91</div>
-            </div>
-            <div class="contact-links">
-             <i class="mdi mdi-email-open"></i>
-             <a href="mailto:tim.thuis@gmail.com?SUBJECT=Say Hello!">tim.thuis@gmail.com</a>
-           </div>
-           <div class="contact-links">
+            <i class="mdi mdi-cellphone-iphone"></i>
+            <div> + 31 6 15 83 29 91</div>
+          </div>
+
+          <div class="contact-links">
+           <i class="mdi mdi-email-open"></i>
+           <a href="mailto:tim.thuis@gmail.com?SUBJECT=Say Hello!">tim.thuis@gmail.com</a>
+          </div>
+
+          <div class="contact-links">
             <i class="fa fa-linkedin"></i>
             <a href="https://nl.linkedin.com/in/tim-thuis-8343088b" target="_blank">linkedin.com/timthuis</a>
           </div>
+
           <div class="contact-links">
             <i class="mdi mdi-github-circle"></i>
             <a href="http://www.github.com/TimThuis" target="_blank">github.com/timthuis</a>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-5 col-md-5">
-          <h2>The <b>Statistics</b></h2>
-          <div class="line-left"></div>
-          <div class="content-info">
-            <div class="contact-links">
-              <i class="mdi mdi-account"></i>
-              <div>Tim Thuis</div>
-            </div>
-            <div class="contact-links">
-              <i class="mdi mdi-cake-variant"></i>
-              <div>26 year</div>
-            </div>
-            <div class="contact-links">
-              <i class="mdi mdi-map-marker"></i>
-              <a href="https://www.google.nl/maps/place/Haarlem/@52.3838233,4.5728393,12z/data=!3m1!4b1!4m2!3m1!1s0x47c5ef6c60e1e9fb:0x8ae15680b8a17e39" target="_blank">Haarlem - The Netherlands</a>
-            </div>
-            <div class="contact-links">
-              <i class="mdi mdi-car"></i>
-              <div>License: Catergory B</div>
-            </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-5">
+
+        <h2>The <b>Statistics</b></h2>
+        <div class="line-left"></div>
+
+        <div class="content-info">
+
+          <div class="contact-links">
+            <i class="mdi mdi-account"></i>
+            <div>Tim Thuis</div>
           </div>
+
+          <div class="contact-links">
+            <i class="mdi mdi-cake-variant"></i>
+            <div>26 year</div>
+          </div>
+
+          <div class="contact-links">
+            <i class="mdi mdi-map-marker"></i>
+            <a href="https://www.google.nl/maps/place/Haarlem/@52.3838233,4.5728393,12z/data=!3m1!4b1!4m2!3m1!1s0x47c5ef6c60e1e9fb:0x8ae15680b8a17e39" target="_blank">Haarlem - The Netherlands</a>
+          </div>
+
+          <div class="contact-links">
+            <i class="mdi mdi-car"></i>
+            <div>License: Category B</div>
+          </div>
+
         </div>
       </div>
     </div>
-    <a href="#portfolio"><div class="sphere" style="background-color:#F5F6FA"><i class="fa fa-angle-down" style="color: #1B1E25"></i></div></a>
   </div>
+  <a href="#portfolio">
+    <div class="sphere" style="background-color:#F5F6FA">
+      <i class="fa fa-angle-down" style="color: #1B1E25"></i>
+    </div>
+  </a>
 </div>
 
 <div class="portfolio" id="portfolio">
+
   <h2>Let's <b>Create</b> and Play!</h2>
   <div class="line-center"></div>
-  <div class="container-project">
-    <div class="link-projects">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
+        <% link_to "https://project-48hrs.herokuapp.com/", target: "_blank" do %>
+          <%= image_tag "mbp_1.png", class: "macbook" %>
+        <% end %>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-5">
+        <h3>48 HRS</h3>
+        <p>
+          <%= link_to "<i>Project 48 hrs</i>", \
+          "https://project-48hrs.herokuapp.com/", class:"link-project", target: "_blank"%>
+          is a <i>Ruby</i> and <i>Ruby on Rails</i> project made in less than two weeks time during our coding bootcamp by
+          <%= link_to "<i>Le Wagon</i>", \
+          "https://www.lewagon.com/amsterdam", class:"link-project", target: "_blank"%>
+          in
+          <%= link_to "<i>B. Amsterdam</i>", \
+          "http://www.b.amsterdam/", class:"link-project", target: "_blank"%>
+          in March 2016.
+        </p>
+        <p>My tasks as lead-developer where to do the back-end, \
+        front-end and guide my team mates through the process \
+        and work on a great collaboration.</p>
+      </div>
     </div>
   </div>
-  <a href="#education"><div class="sphere" style="background-color:#1B1E25"><i class="fa fa-angle-down" style="color: #FAFAFA"></i></div></a>
+    <a href="#education">
+      <div class="sphere" style="background-color:#1B1E25">
+        <i class="fa fa-angle-down" style="color: #FAFAFA"></i>
+      </div>
+    </a>
 </div>
 
 
 <div class="education" id="education">
-  <div class="container">
-    <h2>The start of my <b>journey</b>
-      <div class="line-center"></div></h2>
-      <div class="row">
-        <div class="col-xs-12 col-sm-5 text-right">
-          <p class="datum">Jan 2016 - April 2016</i> </p>
-        </div>
-        <div class="col-xs-12 col-sm-5 col-md-7 text-left">
-          <span class="school">B. Startup School Amsterdam (BSSA)</span>
-          <p class="school-desc">
-            Course: Full-stack developer by Le Wagon during an intensive full-time 12-week Bootcamp in web application development in the start-up location B. Amsterdam.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-5 text-right">
-          <p class="datum">Sept 2009 - July 2013</i></p>
-        </div>
-        <div class="col-xs-12 col-sm-5 col-md-7 text-left">
-          <span class="school">HKU University of the Arts Utrecht</span>
-          <p class="school-desc">
-            Facility: Art, Media and Technology - Bachelor of Design
-            <br>
-            Course: Audio Visuele Media, specialist in conceptual and visual storytelling. - Graduated with honors.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-5 text-right">
-          <p class="datum">Sept 2001 - Juli 2008</i></p>
-        </div>
-        <div class="col-xs-12 col-sm-5 col-md-7 text-left">
-          <span class="school">Coornhert Lyceum Haarlem</span>
-          <p class="school-desc">
-            Course: VWO - Economics & Society
-            <br>
-            Extra classes: Theatre, management & organization - Graduated.
-          </p>
-        </div>
-      </div>
-    </div>
-    <a href="#work"><div class="sphere" style="background-color:#1B1E25"><i class="fa fa-angle-down" style="color: white"></i></div></a>
+
+  <div class="education-title">
+    <h2>The start of my <b>journey</b></h2>
+    <p>For more details regarding my education or current working experience please visit my linkedin profile or feel free to contact me. More coming soon.</p>
+    <div class="line-white"></div>
   </div>
 
-  <div class="work" id="work">
-    <div class="all-work">
-      <h2>Practice <b>makes</b> it perfect</h2>
-      <div class="work-container">
-        <div class="vert-bar">
-          <img src="images/point.png" class="pointer">
-        </div>
-        <div class="work-text">
-          <h3>Camerawork & Creative</h3>
-          <div>
-            <p>
-              Clients: Imagine People <i>Utrecht</i>, Video Nieuws Bericht <i>Hilversum</i>, Nike Europe <i>Hilversum</i>, Edelman PR <i>Amsterdam</i>, John Doornik Casting <i>Amsterdam</i>, and many others.
-            </p>
-            <p>
-              Tasks: Responsible for the visual storytelling, conceptual ideas and the technical sides of camera’s, lichting, audio and post-production. Mostly for internal video communication and online advertisement.
-            </p>
-          </div>
-        </div>
-      </div>
+  <a href="#work">
+    <div class="sphere" style="background-color:#1B1E25">
+      <i class="fa fa-angle-down" style="color: white"></i>
     </div>
-    <a href="#skills"><div class="sphere" style="background-color:#FF6863"><i class="fa fa-angle-down" style="color: white"></i></div></a>
-  </div>
+  </a>
+</div>
 
-  <div class="skills" id="skills">
-    <div class="title-skills">
-      <h2>Let's <b>show</b> off!</h2>
-      <p>After a intense coding bootcamp of 3 months I can finally show you what I have learned.</p>
-    </div>
+<div class="skills" id="skills">
+
+  <div class="title-skills">
+    <h2>Let's <b>show</b> off!</h2>
+    <p>After a intense coding bootcamp of 3 months, <br>
+      I can finally show you what I've learned.</p>
     <div class="line-center"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          <div class="card-skills">
-            <div class="skill-container">
-              <img src="images/tools.png" class="skills-img">
-            </div>
-            <h3>Tools</h3>
-            <div class="counter">
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="card-skills">
+          <div class="skill-container">
+            <img src="images/tools.png" class="skills-img">
+          </div>
+
+          <h3>Tools</h3>
+
+          <div class="counter">
               <div class="skills-check">
                 <i class="fa fa-check check-red"></i>
-                <p>Command Lines</p>
+                <p>Terminal</p>
               </div>
               <div class="skills-check">
                 <i class="fa fa-check check-red"></i>
@@ -200,15 +195,17 @@
                 <i class="fa fa-check check-orange"></i>
                 <p>Adobe Indesign</p>
               </div>
-            </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-4">
+      </div>
+      <div class="col-xs-12 col-sm-4">
           <div class="card-skills">
             <div class="skill-container">
               <img src="images/code.png" class="skills-img">
             </div>
+
             <h3>Coding</h3>
+
             <div class="counter">
               <div class="skills-check">
                 <i class="fa fa-check check-red"></i>
@@ -224,21 +221,23 @@
               </div>
               <div class="skills-check">
                 <i class="fa fa-check check-red"></i>
-                <p>PostgreSQL</p>
+                <p>PostgreSQL & SQLite</p>
               </div>
               <div class="skills-check">
                 <i class="fa fa-check check-orange"></i>
-                <p>Javascript, Jquery & React</p>
+                <p>Javascript, jQuery & React</p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
+      </div>
+      <div class="col-xs-12 col-sm-4">
           <div class="card-skills">
             <div class="skill-container">
               <img src="images/video.png" class="skills-img">
             </div>
+
             <h3>Video</h3>
+
             <div class="counter">
               <div class="skills-check">
                 <i class="fa fa-check check-red"></i>
@@ -254,13 +253,15 @@
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
-    <a href="#home"><div class="sphere" style="background-color:#1B1E25;line-height: 40px"><i class="fa fa-angle-up" style="color: #FAFAFA"></i></div></a>
   </div>
-  <div class="footer" id="footer">
-  </div>
-
+    <a href="#home">
+      <div class="sphere" style="background-color:#1B1E25;line-height: 40px">
+        <i class="fa fa-angle-up" style="color: #FAFAFA"></i>
+      </div>
+    </a>
 </div>
 
+<div class="footer" id="footer">
+</div>
