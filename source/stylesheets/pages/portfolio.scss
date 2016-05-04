@@ -12,6 +12,18 @@
   }
 }
 
+.content-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .macbook {
-  max-height: 250px;
+  max-width: 400px;
+}
+
+.container-macbook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

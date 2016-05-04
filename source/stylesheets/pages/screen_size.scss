@@ -1,2 +1,93 @@
 @media (max-width:768px ) {
+
+// title
+.title {
+  p {
+    margin: 0 20px;
+  }
+  h1 {
+    font-size: 25px;
+    border: 3px solid white;
+    padding: 13px 30px;
+  }
+}
+
+// who
+.who {
+  .container-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      text-align: center;
+      padding-right: 0;
+    }
+    .container-photo {
+      padding-right: 0;
+    }
+    .info-text {
+      .line-left {
+        margin: 0 auto;
+        margin-top: 35px;
+      }
+    }
+  }
+}
+
+// info
+.info {
+  h2 {
+    text-align: center;
+  }
+  .line-left {
+    margin: 10px auto;
+  }
+  .content-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+// portfolio
+.portfolio {
+  .container-macbook {
+    display: flex;
+    justify-content: center;
+  }
+  .macbook {
+    max-height: 200px;
+  }
+  h3 {
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+    margin: auto 30px;
+  }
+}
+
+// education
+.education {
+  .title-content-edu {
+    margin: 25px auto 15px auto;
+  }
+  p {
+    margin: 0 50px;
+  }
+}
+
+// skills
+.skills {
+  .skill-container {
+    margin-top: 30px;
+  }
+  .container {
+    padding-top: 0;
+  }
+  p {
+    margin: 0 25px;
+  }
+}
+
 }

@@ -15,7 +15,8 @@
   <div class="container-info">
     <div class="container-photo">
       <div class="pf-p">
-        <%= image_tag 'tim-profile.jpg', class: 'profile-pic' %>
+        <%= image_tag 'tim-profile.jpg', \
+        class: 'profile-pic' %>
       </div>
     </div>
     <div class="info-text">
@@ -38,10 +39,10 @@
         <h2>Get <b>Connected</b></h2>
         <div class="line-left"></div>
         <div class="content-info">
-          <div class="contact-links">
-            <i class="mdi mdi-cellphone-iphone"></i>
-            <div> + 31 6 15 83 29 91</div>
-          </div>
+          <!-- <div class="contact-links"> -->
+            <!-- <i class="mdi mdi-cellphone-iphone"></i> -->
+            <!-- <div> + 31 6 15 83 29 91</div> -->
+          <!-- </div> -->
 
           <div class="contact-links">
            <i class="mdi mdi-email-open"></i>
@@ -66,14 +67,14 @@
 
         <div class="content-info">
 
-          <div class="contact-links">
-            <i class="mdi mdi-account"></i>
-            <div>Tim Thuis</div>
-          </div>
+          <!-- <div class="contact-links"> -->
+            <!-- <i class="mdi mdi-account"></i> -->
+            <!-- <div>Tim Thuis</div> -->
+          <!-- </div> -->
 
           <div class="contact-links">
             <i class="mdi mdi-cake-variant"></i>
-            <div>26 year</div>
+            <div>26 year - 24 september 1989</div>
           </div>
 
           <div class="contact-links">
@@ -104,27 +105,31 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
-        <% link_to "https://project-48hrs.herokuapp.com/", target: "_blank" do %>
-          <%= image_tag "mbp_1.png", class: "macbook" %>
-        <% end %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="container-macbook">
+          <% link_to "https://project-48hrs.herokuapp.com/", target: "_blank" do %>
+            <%= image_tag "mbp_1.png", class: "macbook" %>
+          <% end %>
+        </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-5">
-        <h3>48 HRS</h3>
-        <p>
-          <%= link_to "<i>Project 48 hrs</i>", \
-          "https://project-48hrs.herokuapp.com/", class:"link-project", target: "_blank"%>
-          is a <i>Ruby</i> and <i>Ruby on Rails</i> project made in less than two weeks time during our coding bootcamp by
-          <%= link_to "<i>Le Wagon</i>", \
-          "https://www.lewagon.com/amsterdam", class:"link-project", target: "_blank"%>
-          in
-          <%= link_to "<i>B. Amsterdam</i>", \
-          "http://www.b.amsterdam/", class:"link-project", target: "_blank"%>
-          in March 2016.
-        </p>
-        <p>My tasks as lead-developer where to do the back-end, \
-        front-end and guide my team mates through the process \
-        and work on a great collaboration.</p>
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+        <div class="content-portfolio">
+          <h3>48 HRS</h3>
+          <p>
+            <%= link_to "<i>Project 48 hrs</i>", \
+            "https://project-48hrs.herokuapp.com/", class:"link-project", target: "_blank"%>
+            is a <i>Ruby</i> and <i>Ruby on Rails</i> project made in less than two weeks time during our coding bootcamp by
+            <%= link_to "<i>Le Wagon</i>", \
+            "https://www.lewagon.com/amsterdam", class:"link-project", target: "_blank"%>
+            in
+            <%= link_to "<i>B. Amsterdam</i>", \
+            "http://www.b.amsterdam/", class:"link-project", target: "_blank"%>
+            in March 2016.
+          </p>
+          <p>My tasks as lead-developer where to do the back-end,
+          front-end and guide my team mates through the process
+          and work on a great collaboration.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -140,11 +145,49 @@
 
   <div class="education-title">
     <h2>The start of my <b>journey</b></h2>
-    <p>For more details regarding my education or current working experience please visit my linkedin profile or feel free to contact me. More coming soon.</p>
+    <!-- <p>For specifieke informatie concerning my work and education have a look at my <a href="https://nl.linkedin.com/in/tim-thuis-8343088b" target="_blank">Linkedin</a>.</p> -->
     <div class="line-white"></div>
   </div>
 
-  <a href="#work">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="col-sm-3">
+          <div class="title-content-edu">
+            <h3>Education</h3>
+            <div class="underline-h3-edu"></div>
+          </div>
+        </div>
+        <div class="col-sm-9">
+          <p>My journey starts in Haarlem at my high-school the <i>Coornhert Lyceum</i>. I've graduated in 2008 with a diploma at VWO level with a background in economic and society with extra classes in theater and management-organisation. In 2009 I've started in a new direction at the Art academy in visual storytelling in <i>Utrecht</i> called the
+          <a href="http://www.hku.nl/web/show" target="_blank"><i>HKU</i></a>.
+          Graduated with honors after four years of specialising in capturing emotions in media, I was ready to show everyone what I had learned. At the start of this new year I needed a challenging adventure. Coding became a part of my life with a intens 3 months full-time boot-camp by
+          <a href="https://www.lewagon.com/amsterdam" target="_blank"><i>Le Wagon</i></a>
+           at the dynamic location
+          <a href="http://www.b.amsterdam/" target="_blank"><i>B. Amsterdam</i></a>.
+          For more detailed information regarding my education have a look at my
+          <a href="https://nl.linkedin.com/in/tim-thuis-8343088b" target="_blank"><i>Linkedin</i></a>.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="col-sm-2">
+          <div class="title-content-edu">
+            <h3>Work</h3>
+            <div class="underline-h3-work"></div>
+          </div>
+        </div>
+        <div class="col-sm-10">
+          <p>I've got a passion for creating. This started at high-school at a jeweler called <i>Siebel</i> or as a studio employee of a small advertising company <i>Repro Print Reklame</i>. During the past 5 years I had a lot of fun as a Freelancer working in the visual branch for many different clients and divers projects. Technical knowledge comes easy to me, so it was a logical step to work in the commercial and movie industry as a technical assistant for many of the great visual storytellers of Holland. After a while it started to itch. I started to create products on my own as photographer, cameraman, editor and animator for companies like
+          <a href="http://edelmanpr.nl/" target="_blank"><i>Edelman</i></a>,
+          <a href="http://www.videonieuwsbericht.nl/?gclid=Cj0KEQjw3Le4BRDxx5bk4aDn9t4BEiQAfmxQGeOwFQfcDON9pyH1RqBDXxq9ZoXJwenbNaePvVkHGKIaAt3W8P8HAQ" target="_blank"><i>Video Nieuws bericht</i></a>, <i>Nike EU</i>, <a href="http://imaginepeople.nl/" target="_blank"><i>Imagine People</i></a> and <a href="http://www.johndoornikcasting.nl/" target="_blank"><i>John Doornik Casting</i></a>.
+          Looking at the future I'm prepared to take on every challenge that's comes my way in coding, creating and building creative teams. For more detailed information regarding my work experience have a look at my
+          <a href="https://nl.linkedin.com/in/tim-thuis-8343088b" target="_blank"><i>Linkedin</i></a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#skills">
     <div class="sphere" style="background-color:#1B1E25">
       <i class="fa fa-angle-down" style="color: white"></i>
     </div>
@@ -172,23 +215,25 @@
 
           <div class="counter">
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
+                <i class="fa fa-check check-green"></i>
                 <p>Terminal</p>
               </div>
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
+                <i class="fa fa-check check-green"></i>
                 <p>Sublime Text</p>
               </div>
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
-                <p>Git & Github</p>
+                <i class="fa fa-check check-green"></i>
+                <p>Git
+                <span class="and-sign"> & </span>
+                Github</p>
               </div>
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
+                <i class="fa fa-check check-green"></i>
                 <p>Adobe Photoshop</p>
               </div>
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
+                <i class="fa fa-check check-green"></i>
                 <p>Adobe Illustrator</p>
               </div>
               <div class="skills-check">
@@ -208,24 +253,32 @@
 
             <div class="counter">
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
+                <i class="fa fa-check check-green"></i>
                 <p>Ruby</p>
               </div>
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
+                <i class="fa fa-check check-green"></i>
                 <p>Ruby on Rails</p>
               </div>
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
-                <p>HMTL5 & CSS3</p>
+                <i class="fa fa-check check-green"></i>
+                <p>HMTL 5
+                <span class="and-sign"> & </span>
+                CSS 3</p>
               </div>
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
-                <p>PostgreSQL & SQLite</p>
+                <i class="fa fa-check check-green"></i>
+                <p>PostgreSQL
+                <span class="and-sign"> & </span>
+                SQLite</p>
               </div>
               <div class="skills-check">
                 <i class="fa fa-check check-orange"></i>
-                <p>Javascript, jQuery & React</p>
+                <p>jQuery</p>
+              </div>
+              <div class="skills-check">
+                <i class="fa fa-check check-red"></i>
+                <p>Javascript Front-End</p>
               </div>
             </div>
           </div>
@@ -240,15 +293,15 @@
 
             <div class="counter">
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
+                <i class="fa fa-check check-green"></i>
                 <p>Adobe Premiere Pro</p>
               </div>
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
+                <i class="fa fa-check check-green"></i>
                 <p>Adobe After Effects</p>
               </div>
               <div class="skills-check">
-                <i class="fa fa-check check-red"></i>
+                <i class="fa fa-check check-green"></i>
                 <p>Final Cut Pro</p>
               </div>
             </div>
