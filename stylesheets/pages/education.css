@@ -1,0 +1,60 @@
+/* line 1, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/education.scss */
+.education {
+  background-color: #1B1E25;
+  padding: 70px 0;
+  color: white;
+  position: relative; }
+  /* line 6, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/education.scss */
+  .education p {
+    text-align: justify;
+    font-weight: 100;
+    margin-top: -2px;
+    margin-left: 20px; }
+  /* line 12, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/education.scss */
+  .education a {
+    color: #FF6863; }
+  /* line 15, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/education.scss */
+  .education a:hover {
+    color: #FF6863; }
+
+/* line 20, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/education.scss */
+.education-title {
+  text-align: center;
+  font-weight: 300;
+  max-width: 500px;
+  margin: 0 auto; }
+  /* line 25, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/education.scss */
+  .education-title h2 {
+    color: white; }
+
+/* line 30, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/education.scss */
+.line-white {
+  width: 50px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 20px auto; }
+
+/* line 37, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/education.scss */
+.title-content-edu {
+  position: relative; }
+  /* line 39, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/education.scss */
+  .title-content-edu h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2px; }
+  /* line 48, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/education.scss */
+  .title-content-edu .underline-h3-edu {
+    height: 3px;
+    width: 114px;
+    background-color: #FF6863;
+    margin-right: 0; }
+  /* line 54, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/education.scss */
+  .title-content-edu .underline-h3-work {
+    height: 3px;
+    width: 63px;
+    background-color: #FF6863;
+    margin-right: 0; }

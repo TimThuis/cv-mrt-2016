@@ -1,0 +1,61 @@
+/* line 1, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/who.scss */
+.container-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 50%;
+  margin: auto; }
+
+/* line 8, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/who.scss */
+.who {
+  background-color: #FFFFFF;
+  position: relative;
+  padding: 70px 0;
+  height: auto;
+  color: #1B1E25; }
+  /* line 14, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/who.scss */
+  .who h2 {
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 20px; }
+  /* line 19, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/who.scss */
+  .who .container {
+    padding-top: 0px; }
+
+/* line 24, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/who.scss */
+.container-photo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 40px; }
+
+/* line 31, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/who.scss */
+.info-text p {
+  text-align: justify;
+  font-weight: 300; }
+/* line 35, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/who.scss */
+.info-text .line-left {
+  margin-top: 35px; }
+
+/* line 44, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/who.scss */
+.profile-pic {
+  height: 120px;
+  -webkit-filter: grayscale(100%);
+  border-radius: 50%; }
+
+/* line 51, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/who.scss */
+.test {
+  height: 50px;
+  width: 50px;
+  background-color: blue; }

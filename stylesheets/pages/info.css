@@ -1,0 +1,56 @@
+/* line 1, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/info.scss */
+.info {
+  background-color: #F5F6FA;
+  padding: 70px 0;
+  position: relative;
+  height: auto;
+  color: #1B1E25;
+  text-align: left; }
+  /* line 8, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/info.scss */
+  .info h2 {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    text-align: left; }
+  /* line 13, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/info.scss */
+  .info .container {
+    padding-top: 0px; }
+
+/* line 18, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/info.scss */
+.contact-links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 12px; }
+  /* line 22, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/info.scss */
+  .contact-links i {
+    padding-right: 15px;
+    color: #FF6863; }
+  /* line 26, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/info.scss */
+  .contact-links a {
+    color: black;
+    text-decoration: none;
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease; }
+  /* line 31, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/info.scss */
+  .contact-links a:hover {
+    color: #FF6863;
+    text-decoration: none; }
+
+/* line 37, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/info.scss */
+.content-info {
+  margin-top: 40px; }
+
+/* line 41, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/info.scss */
+.link-project {
+  color: black;
+  text-decoration: none;
+  font-weight: 400; }
+  /* line 45, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/info.scss */
+  .link-project:hover {
+    text-decoration: none;
+    color: #FF6863; }

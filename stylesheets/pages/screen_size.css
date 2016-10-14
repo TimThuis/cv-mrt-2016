@@ -1,0 +1,97 @@
+@media (max-width: 768px) {
+  /* line 5, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .title p {
+    margin: 0 20px; }
+  /* line 8, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .title h1 {
+    font-size: 25px;
+    border: 3px solid white;
+    padding: 13px 30px; }
+
+  /* line 17, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .who .container-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 80%; }
+    /* line 22, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+    .who .container-info h2 {
+      text-align: center;
+      padding-right: 0; }
+    /* line 26, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+    .who .container-info .container-photo {
+      padding-right: 0; }
+    /* line 30, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+    .who .container-info .info-text .line-left {
+      margin: 0 auto;
+      margin-top: 35px; }
+
+  /* line 42, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .info h2 {
+    text-align: center; }
+  /* line 45, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .info .line-left {
+    margin: 10px auto; }
+  /* line 48, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .info .content-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  /* line 57, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .portfolio .container-macbook {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  /* line 61, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .portfolio .macbook {
+    max-height: 200px; }
+  /* line 64, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .portfolio h3 {
+    text-align: center; }
+  /* line 67, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .portfolio p {
+    text-align: justify;
+    margin: auto 30px; }
+
+  /* line 75, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .education .title-content-edu {
+    margin: 25px auto 15px auto; }
+  /* line 78, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .education p {
+    margin: 0; }
+
+  /* line 85, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .skills .skill-container {
+    margin-top: 30px; }
+  /* line 88, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .skills .container {
+    padding-top: 0; }
+  /* line 91, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/screen_size.scss */
+  .skills p {
+    margin: 0 25px; } }

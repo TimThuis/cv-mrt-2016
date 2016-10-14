@@ -1,0 +1,95 @@
+/* line 1, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+.skills {
+  padding: 70px 0 100px 0;
+  color: black;
+  background-color: #F5F6FA;
+  position: relative;
+  text-align: center; }
+
+/* line 10, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+.container {
+  padding-top: 30px; }
+
+/* line 14, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+.skill-container {
+  border: 2px solid black;
+  height: 125px;
+  width: 125px;
+  border-radius: 999px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 25, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+.skills-img {
+  height: 60px; }
+
+/* line 29, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+.card-skills {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 33, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+  .card-skills i {
+    padding-right: 10px; }
+  /* line 36, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+  .card-skills p {
+    color: rgba(0, 0, 0, 0.7); }
+  /* line 39, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+  .card-skills h3 {
+    font-size: 20px;
+    margin: 7px 0 25px 0;
+    text-transform: uppercase; }
+
+/* line 46, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+.skills-check {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline; }
+
+/* line 51, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+.title-skills {
+  max-width: 400px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 18px; }
+
+/* line 58, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+.check-green {
+  color: #5cb85c; }
+
+/* line 62, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+.check-orange {
+  color: #f0ad4e; }
+
+/* line 66, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+.check-red {
+  color: #d9534f; }
+
+/* line 70, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/skills.scss */
+.and-sign {
+  color: #d9534f; }

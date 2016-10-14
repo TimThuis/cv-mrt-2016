@@ -1,0 +1,48 @@
+/* line 1, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/portfolio.scss */
+.portfolio {
+  position: relative;
+  padding: 80px 0; }
+  /* line 4, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/portfolio.scss */
+  .portfolio p {
+    font-weight: lighter;
+    text-align: justify; }
+  /* line 8, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/portfolio.scss */
+  .portfolio h3 {
+    padding-left: 0;
+    font-size: 22px;
+    font-weight: 600; }
+
+/* line 15, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/portfolio.scss */
+.content-portfolio {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 21, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/portfolio.scss */
+.macbook {
+  max-width: 400px; }
+
+/* line 25, /Users/timthuis/code/TimThuis/cv_timthuis_2016/source/stylesheets/pages/portfolio.scss */
+.container-macbook {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
